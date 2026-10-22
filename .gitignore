@@ -1,0 +1,51 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Runtime cache
+.cache/
+
+# Local studio overrides
+config/agent_runtime.local.json
+
+# Local credentials and private keys
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+*service-account*.json
+
+# Local call data
+recordings/
+transcripts/
+logs/
